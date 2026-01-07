@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Africa Wellness</title>
+<h1 style="font-size:60px;"><CENTER>Registration form</CENTER></h1>
+<style>
+form{
+ width:600px;
+margin:0 auto;
+background-color:brown;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+input[type="submit"]{
+width: 100%;
+padding:10px;
+background-color:black;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+}
+
+</style>
+<nav>
+<a href="index.html">HOME</a>
+</nav>
+
+</head>
+
+<body bgcoolor="brown">
+
+<form action="https://formspree.io/f/mlgdykrn" method="POST">
+
+    <label for="fname">FIRST NAME:</label>
+    <input type="text" id="fname" name="fname" required>
+    <br><br>
+
+    <label for="lname">LAST NAME:</label>
+    <input type="text" id="lname" name="lname" required>
+    <br><br>
+
+    <label for="email">ENTER YOUR EMAIL:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <label for="pnumber">PHONE NUMBER:</label>
+    <input type="tel" id="pnumber" name="pnumber">
+    <br><br>
+
+    <label>GENDER:</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
